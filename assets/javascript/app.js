@@ -37,7 +37,10 @@ var questions = [{
     answer: 3
 }];
 
+
+
 $("#start").on("click", function() {
+
 
     // Hide Start button
     $(this).hide();
@@ -279,11 +282,12 @@ function keepingScore() {
 
         unanswered++;
     }
+    
     else if (userAnswer7 == questions[6].answer) {
 
         correctAnswers++;
     }
-    else {
 
+    else {
         incorrectAnswers++;
-    }  
+    }
