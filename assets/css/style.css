@@ -23,7 +23,8 @@ h1 {
     text-align: center;
     margin: 0 15%;
     padding: 30px;
-    background: #fffd91
+    background: #fffd91;
+    min-height: 90vh;
 }
 
 .main-content {

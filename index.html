@@ -16,13 +16,9 @@
 
         <h1>Trivia!</h1>
 
+        <div id="timer"></div>
+
         <div id="quiz" class="main-content">
-
-            <button id="start" class="btn">Start</button>
-
-            <!-- Time Remaining -->
-            <div id="time"></div>
-
             <!-- Questions & Answers -->
             <div id="question1"></div>
             <div id="answer1"></div>
@@ -50,9 +46,14 @@
 
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
-
+    <script>
+    start();
+    </script>
 </body>
 
 </html>
