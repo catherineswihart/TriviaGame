@@ -21,42 +21,42 @@ var questions = [{
   question: "What was the original name of the show?",
   answers: ["Insomnia Cafe", "Central Perk", "Coffee House", "Life in New York"],
   correctAnswer: "Insomnia Cafe",
-  image: 
+  image: "../assets/images/1.jpg"
 }, {
   question: "What was the name of the self help book that the girls loved?",
   answers: ["Be Your Own Person", "Be Your Own Windkeeper", "Be The Change You Wish to See", "Live Your Best Life"],
   correctAnswer: "Be Your Own Windkeeper",
-  image: 
+  image: "../assets/images/2.jpg"
 }, {
   question: "Where did Monica and Ross' parents jet off to for Thanksgiving?",
   answers: ["Hawaii", "The Netherlands", "Bahamas", "Puerto Rico"],
   correctAnswer: "Puerto Rico",
-  image: 
+  image: "../assets/images/3.jpg"
 }, {
   question: "What was wrong with the couch Ross returned to the store?",
   answers: ["It was the wrong color", "It was too big", "It was cut in half", "He didn't want it"],
   correctAnswer: "It was cut in half",
-  image: 
+  image: "../assets/images/5.jpg"
 }, {
   question: "What was Phoebe in charge of at Rachel's suprise party?",
   answers: ["Invitations", "Decorations", "Music", "Cups and Ice"],
   correctAnswer: "Cups and Ice",
-  image: 
+  image: "../assets/images/6.jpg"
 }, {
   question: "To get over Richard, what did Monica start making?",
   answers: ["Pancakes", "Jam", "Candy", "Cookies"],
   correctAnswer: "Jam",
-  image: 
+  image: "../assets/images/7.jpg"
 }, {
   question: "How many roses did Ross send to Emily?",
   answers: ["72", "13", "100", "1"],
   correctAnswer: "72",
-  image: 
+  image: "../assets/images/8.jpg"
 }, {
   question: "Who fell in an open grave?",
   answers: ["Phoebe", "Joey", "Chandler", "Ross"],
   correctAnswer: "Ross",
-  image: 
+  image: "../assets/images/9.jpg"
 }];
 
 // Variable to hold our setInterval
