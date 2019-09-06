@@ -1,59 +1,39 @@
-<!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+  <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>90's Trivia Game</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>trivia game</title>
 
-</head>
+    <!-- CSS Reset Sheet -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"> -->
 
-<body>
+    <!-- Out Own CSS Sheet -->
+    <link rel="stylesheet" href="assets/css/trivia.css">
 
-    <div class="container">
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-        <h1>Trivia!</h1>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 
-        <div id="timer"></div>
+  </head>
 
-        <div id="quiz" class="main-content">
-            <!-- Questions & Answers -->
-            <div id="question1"></div>
-            <div id="answer1"></div>
-            <div id="question2"></div>
-            <div id="answer2"></div>
-            <div id="question3"></div>
-            <div id="answer3"></div>
-            <div id="question4"></div>
-            <div id="answer4"></div>
-            <div id="question5"></div>
-            <div id="answer5"></div>
-            <div id="question6"></div>
-            <div id="answer6"></div>
-            <div id="question7"></div>
-            <div id="answer7"></div>
-            <div id="submit"></div>
+  <body>
 
-            <!-- Results -->
-            <div id="resultsMessage"></div>
-            <div id="correct"></div>
-            <div id="incorrect"></div>
-            <div id="unanswered"></div>
-
+    <div id="wrapper">
+      <h1>t r i v i a</h1>
+      <div id="sub-wrapper">
+        <div id="quiz-area">
+          <button id="start">Start</button>
         </div>
-
+      </div>
     </div>
 
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.js"
-    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
-    <script>
-    start();
-    </script>
-</body>
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/trivia.js"></script>
+
+  </body>
 
 </html>
+
