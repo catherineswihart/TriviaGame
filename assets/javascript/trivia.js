@@ -17,6 +17,7 @@ $(document).on("click", "#start-over", function() {
   });
 
 // questions
+
 var questions = [{
   question: "What was the original name of the show?",
   answers: ["Insomnia Cafe", "Central Perk", "Coffee House", "Life in New York"],
